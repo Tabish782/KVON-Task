@@ -61,3 +61,26 @@ section {
     padding: 40px;
     text-align: center;
 }
+
+/* Skill Hover Effect */
+.skill-box span {
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.skill-box span:hover {
+    background: #38bdf8;
+    color: #020617;
+    transform: translateY(-5px);
+}
+
+
+.card {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background: #020617;
+    transform: translateY(-8px);
+}
